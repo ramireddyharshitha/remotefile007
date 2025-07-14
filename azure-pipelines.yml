@@ -1,0 +1,9 @@
+trigger:
+- main
+pool:
+  name: prod-pool
+steps:
+- task: Maven@3
+  inputs:
+    mavenPomFile: 'pom.xml'
+    goals: 'package'
