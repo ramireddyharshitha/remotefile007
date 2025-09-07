@@ -168,8 +168,8 @@
     <div class="container hero-grid">
       <div>
         <span class="badge">Trusted by Many learners • Job‑ready curriculum</span>
-        <h2>Launch your career in <span style="color:var(--accent)">Cloud, DevOps & Full‑Stack</span></h2>
-        <p>Outcome‑oriented training with real projects, interview preparation, and mentorship. Learn by doing, ship your work, and get industry‑ready.</p>
+        <h2>Launch your career in <span style="color:var(--accent)">Cloud, DevOps & FullStack</span></h2>
+        <p>Outcomeoriented training with real projects, interview preparation, and mentorship. Learn by doing, ship your work, and get industry‑ready.</p>
         <div class="hero-card">
           <strong>Upcoming Cohorts</strong>
           <div class="hero-stats">
