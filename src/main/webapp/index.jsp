@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <style>
     :root{
-      --bg:#0e0f14;      /* page background */
+      --bg:#0e0f14;      /* page backgroun*/
       --panel:#141723;   /* elevated background */
       --muted:#9aa3b2;   /* secondary text */
       --text:#ffffff;    /* primary text */
