@@ -143,7 +143,7 @@
     <div class="container nav" id="nav">
       <div class="brand">
 
-        <h1>SHIVA SAI PERSEVERANCE</h1>
+        <h1>SSP Tirupati</h1>
       </div>
       <nav aria-label="Primary">
         <ul>
