@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>SHIVA SAI PERSEVERANCE </title>
+  <title>SSP Tirupati </title>
   <meta name="description" content="Perseverance Software Institute — Courses, schedules, mentors, and admissions. Learn DevOps, Cloud, AI, and Full‑Stack with hands‑on projects." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
