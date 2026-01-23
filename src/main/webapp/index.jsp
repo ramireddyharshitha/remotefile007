@@ -168,7 +168,7 @@
     <div class="container hero-grid">
       <div>
         <span class="badge">Trusted by Many learners • Job‑ready curriculum</span>
-        <h2>Launch  your career with SSP Tirupati <span style="color:var(--accent)">Cloud, DevOps & AI</span></h2>
+        <h2>Kickstart with SSP Tirupati <span style="color:var(--accent)">Cloud, DevOps & AI</span></h2>
         <p>Outcomeoriented training with real projects, interview preparation, and mentorship. Learn by doing, ship your work, and get industry‑ready.</p>
         <div class="hero-card">
           <strong>Upcoming Cohorts</strong>
