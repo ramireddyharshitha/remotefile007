@@ -31,12 +31,21 @@ pipeline {
                 sh 'mvn package'
             }
         }
-
-        stage('Archive Artifacts') {
+        stage('Run App (Tomcat)') {
             steps {
-                archiveArtifacts artifacts: 'target/*.war', fingerprint: true
-            }
-        }
+                sh '''
+                docker rm -f myapp || true
+                docker run -d -p 8081:8080 \
+                  -v $(pwd)/target:/usr/local/tomcat/webapps \
+                  --name myapp tomcat:9
+               '''
+           }
+       }
+       stage('Archive Artifacts') {
+           steps {
+               archiveArtifacts artifacts: 'target/*.war', fingerprint: true
+           }
+       }
     }
 
     post {
