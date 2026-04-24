@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git 'https://github.com/ramireddyharshitha/remotefile007'
+                git branch: 'main', url: 'https://github.com/ramireddyharshitha/remotefile007'
             }
         }
 
