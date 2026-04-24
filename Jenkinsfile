@@ -35,10 +35,10 @@ pipeline {
             steps {
                 sh '''
                 docker rm -f myapp || true
-                docker run -d -p 8081:8080 \
-                  -v $(pwd)/target:/usr/local/tomcat/webapps \
-                  --name myapp tomcat:9
-               '''
+                docker run -d -p 8081:8080 --name myapp tomcat:9
+                sleep 10
+                docker cp target/ssp.war myapp:/usr/local/tomcat/webapps/
+                '''
            }
        }
        stage('Archive Artifacts') {
